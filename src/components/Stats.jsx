@@ -1,9 +1,10 @@
 export default function Stats({ items }) {
   if (!items.length)
     return (
-      <p className="stats">
+      <footer className="stats">
         <em>Start adding some items to your packing list 🚀</em>
-      </p>
+        <p>Made by Ervin Dragovic - learning React Course</p>
+      </footer>
     );
 
   const numItems = items.length;
@@ -17,6 +18,7 @@ export default function Stats({ items }) {
           ? "You got everything! Ready to go ✈️"
           : ` 💼 You have ${numItems} items on your list, and you already packed ${numPacked} (${percentage}%)`}
       </em>
+      <p>Made by Ervin Dragovic - learning React Course</p>
     </footer>
   );
 }
