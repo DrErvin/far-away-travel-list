@@ -3,7 +3,7 @@ export default function Stats({ items }) {
     return (
       <footer className="stats">
         <em>Start adding some items to your packing list 🚀</em>
-        <p>Made by Ervin Dragovic - learning React Course</p>
+        {/* <p>DrErvin - learning React Course</p> */}
       </footer>
     );
 
